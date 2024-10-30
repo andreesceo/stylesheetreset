@@ -14,7 +14,7 @@ body {
     user-select: none;
     scroll-behavior: smooth;
     list-style: none;
-    font-family: var(--perma-typography-webkit);
+    font-family: var(--webkit-typography-root);
     color: var(--cl-id-00);
     cursor: default;
     text-decoration: none;
