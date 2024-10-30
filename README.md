@@ -25,6 +25,13 @@ body {
     outline: 0 none;
 }
 
+*::before,
+*::after {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
 body {
     min-height: 200vh;
 }
