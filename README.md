@@ -29,7 +29,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     display: block;
     position: absolute;
 }
