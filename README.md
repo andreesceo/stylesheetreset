@@ -25,9 +25,11 @@ body {
     outline: 0 none;
 }
 
-*::before,
-*::after {
+*, *::before, *::after {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
     display: block;
     position: absolute;
 }
@@ -44,7 +46,7 @@ figure {
     align-items: center;
 }
 
-img {
+audio, canvas, iframe, img, svg, video {
     height: 100%;
     width: 100%;
     display: block;
@@ -65,6 +67,10 @@ input {
     &::placeholder {
         color: inherit;
     }
+}
+
+[hidden] {
+    display: none !important;
 }
 ```
 
